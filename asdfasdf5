@@ -1,0 +1,19 @@
+package program;
+
+import java.util.ArrayList;
+
+public class asdfasdf4 {
+    public static void main(String[] args) {
+
+        ArrayList<String> names = new ArrayList<>();
+
+        names.add("Shyam sundar thakur");
+        names.add("Rahul Kumar Shah");
+        names.add("Meera kumari yadav");
+
+        names.remove(0);     
+        names.remove("Meera kumari yadav"); 
+
+        System.out.println(names);
+    }
+}
